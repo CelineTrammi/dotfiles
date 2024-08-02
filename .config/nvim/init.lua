@@ -11,6 +11,7 @@ spec("plugins.which-key")
 -- git hunks for staging and previewing
 spec("plugins.gitsigns")
 spec("plugins.lazygit")
+spec("plugins.diffview")
 -- telescope, fuzzy find, etc.
 spec("plugins.telescope")
 -- language server protocol (lsp)
