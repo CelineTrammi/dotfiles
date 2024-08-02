@@ -10,6 +10,7 @@ require("config.keymap")
 spec("plugins.which-key")
 -- git hunks for staging and previewing
 spec("plugins.gitsigns")
+spec("plugins.lazygit")
 -- telescope, fuzzy find, etc.
 spec("plugins.telescope")
 -- language server protocol (lsp)
