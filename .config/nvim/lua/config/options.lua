@@ -51,12 +51,6 @@ opt.updatetime = 250
 -- Displays which-key popup sooner
 opt.timeoutlen = 300
 
--- Sets how neovim will display certain whitespace characters in the editor.
---  See `:help 'list'`
---  and `:help 'listchars'`
-opt.list = true
-opt.listchars = { tab = "» ", trail = "·", nbsp = "␣" }
-
 -- Preview substitutions live, as you type!
 opt.inccommand = "split"
 
