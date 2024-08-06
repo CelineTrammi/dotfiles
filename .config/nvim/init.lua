@@ -6,29 +6,44 @@ require("config.launch")
 require("config.options")
 require("config.keymap")
 
+-- theme
+spec("plugins.theme.tokyonight")
+
 -- show keys with description
 spec("plugins.which-key")
+
+-- telescope, fuzzy find, etc.
+spec("plugins.telescope")
+
+-- language server protocol (lsp)
+spec("plugins.lspconfig")
+
+-- formatter
+spec("plugins.conform")
+
+-- autocompletion
+spec("plugins.cmp")
+
+-- indent guides
+spec("plugins.indent_line")
+
+-- linting
+spec("plugins.lint")
+
+-- automatically pair brackets together
+spec("plugins.autopairs")
+
+-- mini files, mini ai, mini surround
+spec("plugins.mini")
+
+-- trees, file managers and such
+spec("plugins.oil")
+spec("plugins.neo-tree")
+
 -- git hunks for staging and previewing
+spec("plugins.fugitive")
 spec("plugins.gitsigns")
 spec("plugins.lazygit")
 spec("plugins.diffview")
--- telescope, fuzzy find, etc.
-spec("plugins.telescope")
--- language server protocol (lsp)
-spec("plugins.lspconfig")
--- formatter
-spec("plugins.conform")
--- autocompletion
-spec("plugins.cmp")
--- theme
-spec("plugins.theme.tokyonight")
--- mini files, mini ai, mini surround
-spec("plugins.mini")
--- indent guides
-spec("plugins.indent_line")
--- linting
-spec("plugins.lint")
--- automatically pair brackets together
-spec("plugins.autopairs")
 
 require("config.lazy-bootstrap")

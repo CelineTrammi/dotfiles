@@ -81,6 +81,7 @@ return { -- LSP Configuration & Plugins
 				-- Find references for the word under your cursor.
 				map("gr", require("telescope.builtin").lsp_references, "[G]oto [R]eferences") -- Nice
 
+				map("K", vim.lsp.buf.hover, "Hover")
 				-- Jump to the type of the word under your cursor.
 				--  Useful when you're not sure what type a variable is and you want to see
 				--  the definition of its *type*, not where it was *defined*.
