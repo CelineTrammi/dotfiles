@@ -7,7 +7,7 @@ require("config.options")
 require("config.keymap")
 
 -- theme
-spec("plugins.theme.tokyonight")
+spec("plugins.theme")
 
 -- show keys with description
 spec("plugins.which-key")
@@ -41,7 +41,6 @@ spec("plugins.oil")
 spec("plugins.neo-tree")
 
 -- git hunks for staging and previewing
-spec("plugins.fugitive")
 spec("plugins.gitsigns")
 spec("plugins.lazygit")
 spec("plugins.diffview")
