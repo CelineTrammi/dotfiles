@@ -7,7 +7,7 @@ require("config.options")
 require("config.keymap")
 
 -- theme
-spec("plugins.theme")
+spec("plugins.themes.catppuccin")
 
 -- show keys with description
 spec("plugins.which-key")
