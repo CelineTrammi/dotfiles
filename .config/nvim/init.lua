@@ -38,11 +38,8 @@ spec("plugins.mini")
 
 -- trees, file managers and such
 spec("plugins.oil")
-spec("plugins.neo-tree")
 
 -- git hunks for staging and previewing
-spec("plugins.gitsigns")
 spec("plugins.lazygit")
-spec("plugins.diffview")
 
 require("config.lazy-bootstrap")
