@@ -1,0 +1,7 @@
+[user]
+	name = CelineTrammi
+	email = celinetram@gmail.com
+
+[alias]
+    st = status
+    co = checkout
