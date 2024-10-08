@@ -24,6 +24,9 @@ spec("plugins.conform")
 -- autocompletion
 spec("plugins.cmp")
 
+-- comments
+spec("plugins.comment")
+
 -- indent guides
 spec("plugins.indent_line")
 
@@ -41,5 +44,7 @@ spec("plugins.oil")
 
 -- git hunks for staging and previewing
 spec("plugins.lazygit")
+
+spec("plugins.debug")
 
 require("config.lazy-bootstrap")
